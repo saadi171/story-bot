@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Story Bot</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="chat-container">
+    <h1>📚 My Story Bot</h1>
+
+    <div class="chat-box" id="chatBox">
+        <div class="bot-message">
+            👋 Hello! I am your Story Bot.<br>
+            I can recommend stories based on your mood.<br><br>
+            Choose your mood below.
+        </div>
+    </div>
+
+    <select id="mood">
+        <option value="">-- Select Mood --</option>
+        <option value="happy">😊 Happy</option>
+        <option value="sad">😢 Sad</option>
+        <option value="bored">😴 Bored</option>
+    </select>
+
+    <button onclick="recommendStory()">Get Story</button>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
